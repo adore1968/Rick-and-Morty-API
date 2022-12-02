@@ -16,7 +16,7 @@ function App() {
               <h2 className="text-xl sm:text-2xl">Page: {page}</h2>
               <button
                 onClick={() => increase()}
-                className="bg-purple-500 py-1 px-4 rounded inline-block text-lg sm:text-xl"
+                className="bg-pink-500 py-1 px-4 rounded inline-block text-lg sm:text-xl"
               >
                 Go to page: {page >= 42 ? "1" : `${page + 1}`}
               </button>
